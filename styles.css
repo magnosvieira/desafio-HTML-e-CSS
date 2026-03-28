@@ -1,0 +1,174 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 150px 76px;
+
+}
+
+.link-header {
+
+    width: 83px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    margin-right: 23px;
+    cursor: pointer;
+
+}
+
+.link-header:hover {
+  color: #5d6b74;
+  opacity: 0.8;
+}
+
+
+.link-header:active {
+  color: #5d6b74;
+  opacity: 0.2;
+}
+
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    top: 32px;
+    left: 420px;
+    border-radius: 5px;
+    background: #6fbf44;
+    border: 1px solid #4cb538;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    cursor: pointer;
+
+
+}
+
+
+.button-header:active {
+  color: #5d6b74;
+  opacity: 0.2;
+}
+
+.Logo-image {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 124px;
+    margin-top: 25px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    opacity: 1;
+    top: 342px;
+    left: 801px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    margin-top: 32px;
+    color: #4b505a;
+
+}
+
+.button-main {
+    width: 112px;
+    height: 27px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    color: #6fbf44;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.button-main:hover {
+  color: #5d6b74;
+}
+
+
+.button-main:active {
+  color: #5d6b74;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    
+    margin: 15px;
+    justify-content:right;
+  }
+
+  .link-header {
+    display: none;
+   
+  }
+
+  .button-header {
+    margin-top: 15px;
+    margin-left: 25px;
+    
+    
+  }
+
+  .Logo-image {
+    width: 291px;
+    height: 250px;
+    margin-left: 52px;
+  }
+
+ section {
+    margin-left: 15px;
+ }
+
+ h1 {
+    font-size: 31px;
+    text-align: center;
+    width: 290px;
+    height: 130px;
+    line-height: normal;
+    margin-left: 32px;
+
+ }
+
+  p {
+    width: 250px;
+    height: 125px;
+    margin-top: 15px;
+    margin-left: 55px;
+    text-align: center;
+    
+  }
+
+  .button-main {
+    margin-top: 50px;
+    margin-left: 127px;
+  }
+}
+
+   
+    
